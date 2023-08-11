@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1025px){
+    .menu {
+        display: none;
+    }
+
+    .mobilni_menu {
+        background-color: #e5d4c8;
+        display: none;
+    }
+
+    .mobilni_ikona {
+        display: inline-block;
+    }
+}
+

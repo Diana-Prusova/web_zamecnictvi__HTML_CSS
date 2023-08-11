@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif, Arial;
+    min-height: 100vh;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    width: 180px;
+    border-bottom:1px solid rgb(0, 0, 0); 
+    margin: 7px auto;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+}
+
+
+hr {
+    margin: 40px 25% 0px 25%;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+}
+
+/******** HEADER ********/
+
+
+.menu_box {
+    height: 90px;
+    background-color: #e5d4c8;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.menu nav {
+    float: right;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.menu nav li {
+    display: inline-block;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    color: #424242;;
+}
+
+/*** mobilní navigace ***/
+
+.mobilni_ikona {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    display: none;
+}
+
+.mobilni_menu {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-bottom: 20px;
+}
+
+.mobilni_menu nav li {
+    padding: 10px;
+}
+
+
+/******** MAIN ********/
+
+.popis_sluzby p {
+    margin: 20px 20%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.galerie_styl {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 20px auto;
+}
+
+.img_kontejner {
+    margin: 20px;
+}
+
+.img_kontejner p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.img_kontejner img {
+    max-width: 300px;
+    height: 300px;
+    transition: 0.5s;    
+}
+
+.img_kontejner img:hover,
+.img_kontejner img:active {
+    transform: scale(1.75)
+}
+
+.img_kontejner_rozcestnik {
+    margin: 0 40px;
+}
+
+.img_kontejner_rozcestnik p {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.img_kontejner_rozcestnik img {
+    max-width: 250px;
+    height: 200px;
+    transition: 0.3s;    
+}
+
+.img_kontejner_rozcestnik img:hover,
+.img_kontejner_rozcestnik img:active {
+    transform: scale(1.05)
+}
+
+
+/******** FOOTER ********/
+
+footer {
+    background-color: #e5d4c8;
+    height: 100px;
+}
+
+.paticka {
+    padding: 25px;
+}
+
+.paticka img {
+    max-width: 50px;
+    float: right;
+    margin: 0 10px;
+    text-align: center;
+    justify-content: center;
+}
