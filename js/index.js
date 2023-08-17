@@ -7,7 +7,6 @@
 
       if (windowWidth > 1025) {
           $(".mobilni_menu").hide();
-          $(".logo").show();
       } 
 
       else if (windowWidth <= 390) {
@@ -22,17 +21,17 @@
 
       // Scroll menu a mobilní navigace
       $(".jq--scroll-sluzby").click(function(){
-        $("html, body").animate({scrollTop: $(".sluzby_div").offset().top}, 600); 
+        $("html, body").animate({scrollTop: $(".sluzby").offset().top}, 600); 
         closeMobileMenu(); 
       });
 
       $(".jq--scroll-kontakt").click(function(){
-        $("html, body").animate({scrollTop: $(".kontakt_div").offset().top}, 600);
+        $("html, body").animate({scrollTop: $(".kontakt").offset().top}, 600);
         closeMobileMenu(); 
       });
 
       $(".jq--scroll-reference").click(function(){
-        $("html, body").animate({scrollTop: $(".reference_div").offset().top}, 600);
+        $("html, body").animate({scrollTop: $(".reference").offset().top}, 600);
         closeMobileMenu(); 
       });
 
@@ -40,8 +39,8 @@
         $("html, body").animate({scrollTop: $(".metoda_tig").offset().top}, 600); 
       });
 
-      $(".jq--scroll-metoda_vig").click(function(){
-        $("html, body").animate({scrollTop: $(".metoda_vig").offset().top}, 600);
+      $(".jq--scroll-metoda_mma").click(function(){
+        $("html, body").animate({scrollTop: $(".metoda_mma").offset().top}, 600);
       });
 
       $(".jq--scroll-metoda_mig_mag").click(function(){

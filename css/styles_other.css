@@ -36,6 +36,7 @@ h3 {
     font-weight: lighter;
     color: rgb(0, 0, 0);
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 
@@ -112,10 +113,23 @@ nav a:hover {
 /******** MAIN ********/
 
 .popis_sluzby p {
-    margin: 20px 20%;
     text-align: center;
     font-size: 16px;
+    margin: 0 20%;
 }
+
+.seznam {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.seznam ul {
+    list-style-type: disc;
+
+}
+
 
 .galerie_styl {
     justify-content: center;
@@ -128,7 +142,7 @@ nav a:hover {
 }
 
 .img_kontejner {
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 .img_kontejner p {
@@ -150,12 +164,12 @@ nav a:hover {
 }
 
 .img_kontejner_rozcestnik {
-    margin: 0 40px;
+    margin: 0 40px 10px 40px;
 }
 
 .img_kontejner_rozcestnik p {
     text-align: center;
-    margin: 10px 0 20px 0;
+    margin: 5px auto 0 auto;
     font-size: 16px;
     font-weight: lighter;
 }
