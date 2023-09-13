@@ -46,7 +46,7 @@ hr {
 /******** HEADER ********/
 
 header {
-    background: url("../img/index_img/pavel_toms_zamecnictvi.jpg");
+    background: url("../img/index_img/kovovyrova_pavel_toms_uvod.jpg");
     background-size: cover;
     height: 100vh;
  }
@@ -229,4 +229,33 @@ footer {
     margin: 0 10px;
     text-align: center;
     justify-content: center;
+}
+
+.mezera {
+    height: 50px;
+}
+
+
+/******** úprava webu ********/
+
+.rekonstrukce {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.rekonstrukce p {
+    margin: 30px auto 50px auto;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.rekonstrukce h6 {
+    max-width: 500px;
+    font-size: 5vh;
+    font-weight: lighter;
+    color:  #ffc5c5;
+    padding: 15px;
+    margin-top: 15%;
+    background-color: #00000088;
 }
